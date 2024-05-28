@@ -111,5 +111,84 @@ a {
 .mainheader-content .navbar a {
   color: #fff;
 }
+.mainheader-content .navbar .flex-fixed {
+  justify-content: space-between;
+}
+.mainheader-content .navbar .txt-link {
+  margin-top: 7px;
+  border-bottom: 2px solid #82fca9;
+}
+.mainheader-content .showcase {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #fff;
+}
+.mainheader-content .showcase span {
+  border-bottom: 3px solid #82fca9;
+}
+.mainheader-content .showcase h1 {
+  margin-bottom: 20px;
+}
+.mainheader-content .showcase img {
+  margin-top: 60px;
+}
+
+.features {
+  padding-top: 40px;
+  padding-bottom: 90px;
+  background: #f9f9f9;
+  border-bottom-left-radius: 50% 35%;
+  border-bottom-right-radius: 50% 35%;
+}
+.features .flex-box {
+  margin: 20px;
+  text-align: center;
+}
+.features .flex-box .txrt-number span {
+  font-size: 20px;
+  border: 1px solid #000;
+  padding: 10px 17px;
+  border-radius: 50%;
+}
+.features .flex-box h4 {
+  padding: 20px 0;
+}
+
+#cta {
+  padding-top: 180px;
+  padding-bottom: 90px;
+  background: #fff;
+}
+#cta img {
+  border: 20px solid #82fca9;
+  border-radius: 50%;
+  margin-right: -50px;
+  margin-top: -100px;
+}
+#cta .cta-text {
+  background: #20073b;
+  color: #fff;
+  padding: 40px 50px;
+}
+#cta .cta-text p {
+  font-weight: 300;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.mainfooter {
+  text-align: center;
+  padding: 30px;
+  background: #fff;
+}
+.mainfooter .logo {
+  color: #20073b;
+}
+.mainfooter .social-fixed {
+  margin-top: 20px;
+}
+.mainfooter .social-fixed a {
+  margin: 10px;
+}
 
 /*# sourceMappingURL=style.css.map */

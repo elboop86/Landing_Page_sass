@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('hhtss://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+$main-color: #20073b;
+$secondary-color: #82fca9;
+$gray-color: #f9f9f9;
+$font-stack: "Montserrat", sans-serif;
+$font-header: 'DM Serif', sans-serif;
+
+//Reset 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+//Main Styling
+
+html, body {
+    font-family: $font-stack;
+}
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 2.5rem;
+}
+h4 {
+    font-size: 2.5rem;
+}
+
+h1, h2, h4 {
+    font-family: $font-header;
+}
+
+p {
+    font-size: 1rem;
+    margin: 5px 0;
+    line-height: 1.7em;
+}
+
+a {
+    text-decoration: none;
+}
+
+// Utility Classes
+
+.flex {
+    flex-direction: column;
+}
+
+//Mainheader
+
+.mainheader {
+    .showcase {
+        padding-bottom: 10px;
+        img {
+            max-width: 100%;
+        }
+    }
+} // End .mainheader
+// Features
+.features {
+    
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    
+} // End .features
+// cta
+#cta {
+    padding-top: 180px;
+    padding-bottom: 90px;
+    background: #fff;
+    img {
+        border: 20px solid $secondary-color;
+        border-radius: 50%;
+        margin-right: -50px;
+        margin-top: -100px;
+    }
+    .cta-text {
+        background: $main-color;
+        color: #fff;
+        padding: 40px 50px;
+        p {
+            font-weight: 300;
+            padding-top: 15px;
+            padding-bottom: 20px;
+        }
+    }
+ } // End cta
+
+ // Footer
+ .mainfooter {
+    text-align: center;
+    padding: 30px;
+    background: #fff;
+    .logo {
+        color: $main-color;
+    }
+    .social-fixed {
+        margin-top: 20px;
+        a {
+            margin: 10px;
+        }
+    }
+ } // End .mainfooter
+
+ @import 'movile';
